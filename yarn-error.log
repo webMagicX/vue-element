@@ -1,0 +1,75 @@
+Arguments: 
+  D:\nodejs\node.exe G:\Program Files\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\Administrator\bin;D:\Git\mingw32\bin;D:\Git\usr\local\bin;D:\Git\usr\bin;D:\Git\usr\bin;D:\Git\mingw32\bin;D:\Git\usr\bin;C:\Users\Administrator\bin;D:\oracle\product\10.2.0\db_1\bin;D:\Java\jdk1.7.0_17\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32\WBEM;D:\nodejs;G:\Program Files\Yarn\bin;C:\Program Files\CVSNT;D:\mongoDB\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Yarn\.bin;D:\Git\usr\bin\vendor_perl;D:\Git\usr\bin\core_perl
+
+Yarn version: 
+  0.23.2
+
+Node version: 
+  6.2.0
+
+Platform: 
+  win32 ia32
+
+npm manifest: 
+  {
+    "name": "attendance",
+    "description": "A Vue.js project",
+    "version": "1.0.0",
+    "author": "magic <428211152@qq.com>",
+    "private": true,
+    "scripts": {
+      "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot",
+      "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+      "remote": "cross-env NODE_ENV=remote webpack-dev-server --open --inline --hot"
+    },
+    "dependencies": {
+      "babel-polyfill": "^6.23.0",
+      "element-ui": "^1.3.2",
+      "vue": "^2.3.3",
+      "vue-router": "^2.3.0",
+      "vuex": "^2.3.1"
+    },
+    "devDependencies": {
+      "autoprefixer": "^6.7.7",
+      "babel-core": "^6.0.0",
+      "babel-eslint": "^7.2.3",
+      "babel-loader": "^6.0.0",
+      "babel-plugin-component": "^0.9.1",
+      "babel-plugin-transform-object-rest-spread": "^6.23.0",
+      "babel-preset-es2015": "^6.0.0",
+      "cross-env": "^3.0.0",
+      "css-loader": "^0.25.0",
+      "de-indent": "^1.0.2",
+      "eslint": "^3.17.1",
+      "eslint-loader": "^1.7.1",
+      "eslint-plugin-html": "^2.0.1",
+      "extract-text-webpack-plugin": "^2.1.0",
+      "file-loader": "^0.9.0",
+      "he": "^1.1.0",
+      "postcss": "^5.2.16",
+      "postcss-loader": "^1.3.3",
+      "style-loader": "^0.14.1",
+      "supports-color": "^3.2.3",
+      "vue-loader": "^10.0.0",
+      "vue-template-compiler": "^2.3.3",
+      "webpack": "^2.4.1",
+      "webpack-dev-server": "^2.1.0-beta.9"
+    },
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.63.173:443
+      at Object.exports._errnoException (util.js:953:11)
+      at exports._exceptionWithHostPort (util.js:976:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
